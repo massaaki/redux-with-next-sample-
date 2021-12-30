@@ -1,9 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
-  return (
-    <h1>Redux</h1>
-  )
+import { Home } from 'templates/Home';
+
+export default function HomePage() {
+  return <Home />
 }
